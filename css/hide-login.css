@@ -1,0 +1,26 @@
+
+/*disable the Primo Aug 2018 sign-in area*/
+prm-user-area {
+  display:block!important;
+}
+
+prm-user-area-expandable {
+  display:none!important;
+}
+
+/* Hide the sign in link */
+.alert-bar {
+  display:none;
+}
+
+/* Hide Guest */
+prm-user-area .user-menu-button .user-name {
+  display: none;
+}
+
+/* Hide My Library Card */
+prm-library-card-menu {
+  display: none;
+}
+
+

@@ -1,0 +1,120 @@
+/* GENERAL WARNING */
+/* The aria-label attrs referenced here are subject to change     */
+/* due to Back Office code table changes, consequently, alignment */
+/* of these settings should be activly mananged and/or tested.    */
+
+
+
+
+/* Hide "More" tab on Full Record */
+#getit_link2.full-view-section{
+display: none !important;
+}
+ 
+/*Hide "More" on side menu */
+.md-button[aria-label="Additional Services"] {
+display: none;
+}
+
+
+
+
+/* Hide "Send to" tab on Full Record */
+#action_list.full-view-section{
+display: none !important;
+}
+ 
+/*Hide "Send to" on side menu */
+.md-button[aria-label="Send to"] {
+display: none;
+}
+
+
+
+
+/* Hide "Collection" tab on Full Record */
+#moreFromTheSameCollection.full-view-section{
+display: none !important;
+}
+
+/*Hide "Collection" on side menu */
+.md-button[aria-label="Collection"] {
+display: none;
+}
+
+
+
+
+/* Hide "Tags" tab on Full Record */
+#tags.full-view-section{
+display: none !important;
+}
+ 
+/*Hide "Tags" on side menu */
+.md-button[aria-label="Tags"] {
+display: none;
+}
+
+
+/* WARNING */
+/* WARNING This hides the second getit section if there is one, i.e it  hides OvP if there is Online, otherwise it hides nothing.*/ 
+/* Hide "Get It" tab on Full Record */
+#getit_link1_1.full-view-section{
+display: none !important;
+}
+ 
+/*Hide "Get It" on side menu */
+.md-button[aria-label="Get It"] {
+display: none;
+}
+
+
+
+
+/* Hide "Links" tab on Full Record */
+#links.full-view-section{
+display: none !important;
+}
+ 
+/*Hide "Links" on side menu */
+.md-button[aria-label="Links"] {
+display: none;
+}
+
+
+
+
+/* Hide "Virtual Browse" tab on Full Record */
+#virtualBrowse.full-view-section{
+display: none !important;
+}
+ 
+/*Hide "Virtual Browse" on side menu */
+.md-button[aria-label="Virtual Browse"] {
+display: none;
+}
+
+
+
+
+
+
+
+/* Hide "Collection Path" line in 'Details' on Full Record */
+prm-record-collection-paths{
+display: none !important;
+}
+
+
+
+/* Hide "Availability statements" in brief and full page */
+prm-search-result-availability-line{
+display: none !important;
+}
+
+/* Hide "Availability statements" wrapper in brief and full page (collapses space) */
+.search-result-availability-line-wrapper {
+display: none;
+}
+
+

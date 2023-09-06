@@ -1,0 +1,66 @@
+
+prm-search-bar {
+  background-color: #f5f7fa;
+}
+
+
+
+/* Make side transparent on full display so NYU colors not hidden */
+.md-dialog-is-showing .md-dialog-container.fixed-container{
+  background-color: transparent;
+} 
+
+
+/* Make menu links black on hover for accessibility contrast */
+prm-topbar .md-button:not(.disable-hover):hover:not([disabled]):hover:not([disabled]){
+  color: #22272d !important;
+} 
+
+
+/* Make Advanced search link black on hover for accessibility contrast 
+.md-button[aria-label="Advanced Search"]:hover {
+  color: #22272d !important;
+}
+*/
+
+
+.md-button[aria-label="Submit search"] {
+  color: #22272d !important;  
+  background-color: white;
+}
+.md-button[aria-label="Submit search"]:hover {
+  color: white !important;  
+  background-color: #22272d !important;
+}
+
+
+/* Search button */
+.md-button.button-confirm._md-focused:not([disabled]),
+.md-button.button-confirm.hovered:not([disabled]),
+.md-button.button-confirm.md-focused:not([disabled]),
+.md-button.button-confirm:focus:not([disabled]),
+.md-button.button-confirm:hover:not([disabled]) {
+  border: medium none;
+  border-radius: 0;
+  min-width: 0;
+  transition: background-color 0.3s ease 0s;
+  background-color: white !important;
+  color: #22272d !important;
+}
+
+.md-button.button-confirm {
+  background-color: #22272d;
+  border-radius: 0 !important;
+  color: white !important;
+}
+
+.switch-to-simple, .switch-to-advanced {
+  background-color: #57068c;
+  color: #fff !important;
+  font-weight: bold;
+  padding: 0 20px;
+}
+
+.switch-to-simple:hover, .switch-to-advanced:hover {
+  background-color: #4A007F !important;
+}
